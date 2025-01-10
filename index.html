@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MESSIAS</title>
+    <style>
+        body {
+            background-color: rgb(180, 180, 180);
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: black;
+            font-size: 60px;
+            height: 200px;
+            color: rgb(244, 236, 9);
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding-right: 100px;
+        }
+        .imgheader {
+            background: linear-gradient(to left, rgb(0, 0, 0), rgba(0, 0, 0, 0)70%), url('/img/MessiasBezerra2.jpeg');
+            background-size: 100%;
+            background-position: center;
+            height: 200px;
+            left: 0px;
+            position: absolute;
+            width: 54%;
+            z-index: 2;
+        }
+        .linha1 {
+            background-color: rgb(206, 206, 206);
+            height: 15px;
+        }
+        .main {
+            background-color: rgb(89, 88, 88);
+            padding: 20px;
+            display: flex; /* Usando flexbox para alinhar a biografia e a imagem */
+            align-items: flex-start;
+            justify-content: flex-start;
+            padding-top: 30px;
+        }
+        .imgmain {
+            
+            height: 400px;
+            width: 400px;
+            margin-right: 50px; 
+        }
+        .biografia {
+            background-color:rgb(89, 88, 88);
+            color: rgb(244, 236, ); 
+            padding: 20px;
+            width: calc(100% - 470px); 
+            height: 364px;
+            overflow: hidden;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 33px;
+        }
+        .footer {
+            background-color: black;
+            height: 50px;
+        }
+        .lista {
+            background-color: rgb(141, 136, 136);
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            padding: 30px;
+            margin-top: 30px;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+        .lista h3 {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+        .lista ul {
+            list-style-type: square;
+            font-size: 33px;
+        }
+        .lista ul li {
+            margin-bottom: 10px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="imgheader"></div>
+        MESSIAS BEZERRA
+    </div>
+    <div class="linha1"></div>
+    <div class="main">
+        <img src="/img/Messias5.jpeg" class="imgmain" alt="Imagem de Messias">
+        <div class="biografia">
+            
+            <p>Nascido no dia 28 de maio de 1984, Messias Bezerra de França, casado com Elisangela Fialho, pai de dois filhos: David Fialho e Luís Fernando, nasceu na localidade de Jubaia, distrito de Maranguape-CE. Fez o ensino fundamental na escola José de Moura, no distrito de Cachoeira, e o ensino médio no colégio Anchieta, concluindo no programa EJA devido à sua dedicação ao Exército Brasileiro em 2002. Trabalhou na empresa Dakota e depois como segurança privado. Aos 29 anos, ingressou na Polícia Militar do Ceará, onde segue até hoje, completando 11 anos de dedicação.</p>
+            <p>Em 2015, ingressou no curso de Direito na Faculdade Grande Fortaleza, se formando em dezembro de 2021 na Unibrasilia. Em 2022, se especializou em Direito Penal e Processual Penal pela Educa Minas e foi indicado para integrar a Força Nacional, com missões pelo país, como combate ao desmatamento, garimpo ilegal, segurança em presídios e operações em diversas regiões.</p>
+        </div>
+    </div>
+    
+    <div class="lista">
+        <h3>Principais Conquistas</h3>
+        <ul>
+            <li>Serviu ao Exército Brasileiro em 2002</li>
+            <li>Trabalhou como segurança privado na empresa SevNack</li>
+            <li>Entrou para a Polícia Militar do Ceará</li>
+            <li>Foi adido à Força Nacional</li>
+            <li>Formou-se em Direito pela Faculdade Unibrasilia</li>
+        </ul>
+    </div>
+    <div class="footer"></div>
+</body>
+</html>
